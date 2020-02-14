@@ -16,6 +16,7 @@ export default createGlobalStyle`
 
   html, body {
     font: 16px sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     background-color: ${theme.primary.bg};
     color: ${theme.primary.text};
