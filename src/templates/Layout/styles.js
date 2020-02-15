@@ -14,40 +14,6 @@ export const Container = styled.div`
     font-family: 'Open Sans', sans-serif;
   }
 
-  header {
-    display: grid;
-    grid-template-columns: 10fr 1fr 1fr 1fr;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    background-color: #3fb59b;
-    z-index: 10;
-  }
-
-  header > div {
-    text-align: right;
-    padding: 0 5px 0 5px;
-  }
-
-  #search {
-    height: 40px;
-    width: 40px;
-    background-color: transparent;
-    border: 0;
-  }
-
-  #searchInput {
-    display: none;
-    height: 40px;
-    width: 300px;
-    border: 1px;
-    border-radius: 5px;
-    font-size: medium;
-    padding: 10px;
-  }
-
   h1 {
     font-size: x-large;
     margin: 5px;
@@ -65,12 +31,6 @@ export const Container = styled.div`
   h3 {
     font-size: small;
     margin: 5px;
-    color: #fff;
-  }
-
-  .fa-search,
-  .fa-bars {
-    font-size: 2em;
     color: #fff;
   }
 
