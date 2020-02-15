@@ -7,11 +7,13 @@ import './styles.css';
 
 function Header() {
   function searchAnimation() {
-    const buttonElement = document.getElementById('search');
+    const searchBoxElement = document.getElementById('searchBox');
     const searchInputElement = document.getElementById('searchInput');
+    const searchElement = document.getElementsByClassName('fa-search')[0];
 
-    buttonElement.style.display = 'none';
+    searchBoxElement.style.backgroundColor = '#fff';
     searchInputElement.style.display = 'unset';
+    searchElement.style.color = '#3fb59b';
   }
 
   return (
@@ -23,15 +25,17 @@ function Header() {
           Mapeamento IFPB-CG
         </h1>
       </div>
-      <button type="button" id="search" onClick={searchAnimation}>
-        <FontAwesomeIcon icon={faSearch} />
-      </button>
-      <input
-        type="text"
-        name="pesquisa"
-        id="searchInput"
-        placeholder="Pesquisar"
-      />
+      <div id="searchBox">
+        <input
+          type="text"
+          name="pesquisa"
+          id="searchInput"
+          placeholder="Pesquisar"
+        />
+        <button type="button" id="search" onClick={searchAnimation}>
+          <FontAwesomeIcon icon={faSearch} />
+        </button>
+      </div>
       <div>
         <FontAwesomeIcon icon={faBars} />
       </div>

@@ -1,7 +1,6 @@
 header {
-  display: grid;
-  grid-template-columns: 10fr 1fr 1fr 1fr;
-  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -15,21 +14,30 @@ header > div {
   padding: 0 5px 0 5px;
 }
 
+#searchBox {
+  background-color: #3fb59b;
+  border: 1px;
+  border-radius: 5px;
+  align-content: center;
+}
+
 #search {
   height: 40px;
   width: 40px;
   background-color: transparent;
   border: 0;
+  align-content: flex-end;
 }
 
 #searchInput {
   display: none;
   height: 40px;
   width: 300px;
-  border: 1px;
+  border: 0px;
   border-radius: 5px;
   font-size: medium;
   padding: 10px;
+  align-content: unset;
 }
 
 .fa-search,
