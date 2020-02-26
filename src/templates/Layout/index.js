@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from '~/components/Header/index';
 
-import SEO from '~/atoms/Seo';
+import SEO from '~/components/Seo';
 
 import { Container } from './styles';
 import GlobalStyle from '~/styles/global';
