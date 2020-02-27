@@ -1,14 +1,13 @@
 import React from 'react';
 
 import PropTypes from 'prop-types';
-import Header from '~/components/Header/index';
 
+import Footer from '~/components/Footer/index';
+import Header from '~/components/Header/index';
 import SEO from '~/components/Seo';
 
 import { Container } from './styles';
 import GlobalStyle from '~/styles/global';
-
-import Footer from '~/components/Footer/index';
 
 function Layout({ children, title }) {
   return (
