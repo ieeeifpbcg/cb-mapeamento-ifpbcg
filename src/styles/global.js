@@ -39,4 +39,8 @@ export default createGlobalStyle`
   li {
     list-style-type: none;
   }
+
+  .cls-2:hover {
+    fill: #faf;
+  }
 `;
