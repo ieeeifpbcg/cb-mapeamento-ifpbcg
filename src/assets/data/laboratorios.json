@@ -1,0 +1,96 @@
+{
+    "id": "_1",
+    "nomeCode": "labsem---laboratorio-de-soldagem-e-manutencao-de-equipamentos",
+    "NomeExtenso": "LABSEM - Laboratório de soldagem e manutenção de equipamentos",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=16"
+},
+{
+    "id": "_2",
+    "nomeCode": "lab-fluidos---laboratorio-de-processamento-de-fluidos-e-analise-de-minerais-de-rochas",
+    "NomeExtenso": "LAB FLUIDOS - Laboratório de processamento de fluidos e análise de minerais de rochas",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=15"
+},
+{
+    "id": "_3",
+    "nomeCode": "lapec---laboratorio-de-perfuracao-e-completacao-de-pocos",
+    "NomeExtenso": "LAPEC - Laboratório de perfuração e completação de poços",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=14"
+},
+{
+    "id": "_4",
+    "nomeCode": "banheiros-de-funcionarios",
+    "NomeExtenso": "Banheiros de Funcionários",
+    "link": " "
+},
+{
+    "id": "_5",
+    "nomeCode": "coordenacao-de-construcao-de-edificios",
+    "NomeExtenso": "Coordenação de Construção de Edifícios",
+    "link": " "
+},
+{
+    "id": "_6",
+    "nomeCode": "laboratorio-de-quimica-geral",
+    "NomeExtenso": "Laboratório de quimica geral",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=32"
+},
+{
+    "id": "_7",
+    "nomeCode": "laboratorio-de-materiais-de-construcao-sistemas-construtivos-e-patologias-da-construcao",
+    "NomeExtenso": "Laboratório de materiais de construção sistemas construtivos e patologias da construção",
+    "link": " "
+},
+{
+    "id": "_8",
+    "nomeCode": "xxx",
+    "NomeExtenso": "xxx",
+    "link": " "
+},
+{
+    "id": "_9",
+    "nomeCode": "processos-organicos-e-quimica-analitica",
+    "NomeExtenso": "Processos Orgânicos e Química Analítica",
+    "link": " "
+},
+{
+    "id": "_10",
+    "nomeCode": "laboratorio-de-instalacoes-hidrossanitarias-e-instalacoes-eletricas",
+    "NomeExtenso": "Laboratório de Instalações Hidrossanitárias e Instalações Elétricas",
+    "link": " "
+},
+{
+    "id": "_11",
+    "nomeCode": "laboratorio-de-topografia",
+    "NomeExtenso": "Laboratório de Topografia",
+    "link": " "
+},
+{
+    "id": "_12",
+    "nomeCode": "banheiros-de-funcionarios",
+    "NomeExtenso": "Banheiros de Funcionários",
+    "link": " "
+},
+{
+    "id": "_13",
+    "nomeCode": "coordenacao-de-petroleo-e-gas",
+    "NomeExtenso": "Coordenação de Petróleo e Gás",
+    "link": " "
+},
+{
+    "id": "_14",
+    "nomeCode": "labmat---laboratorio-de-ensaios-de-materiais-e-tubulacoes-industriais",
+    "NomeExtenso": "LABMAT - Laboratório de Ensaios de Materiais e Tubulações Industriais",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=19"
+},
+{
+    "id": "_15",
+    "nomeCode": "labmetro---laboratorio-de-metrologia",
+    "NomeExtenso": "LABMETRO - Laboratório de Metrologia",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=18"
+},
+{
+    "id": "_16",
+    "nomeCode": "labhip---laboratorio-de-sistemas-hidropneumaticos",
+    "NomeExtenso": "LABHIP - Laboratório de Sistemas Hidropneumáticos",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=17"
+}
