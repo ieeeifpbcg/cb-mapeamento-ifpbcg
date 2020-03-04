@@ -1,54 +1,58 @@
 {
-    "id": "_1",
-    "slug": "coordenacao_do_curso_superior_de_licenciatura_em_fisica",
-    "nomeExtenso": "Coordenação do Curso Superior de Licenciatura em Física",
-    "link": " "
-},
-{
-    "id": "_2",
-    "slug": "sala_de_atendimento_(monitoria)",
-    "nomeExtenso": "Sala de Atendimento (Monitoria)",
-    "link": " "
-},
-{
-    "id": "_3",
-    "slug": "sala_de_estudo_3",
-    "nomeExtenso": "Sala de Estudo 3",
-    "link": " "
-},
-{
-    "id": "_4",
-    "slug": "sala_de_estudo_2",
-    "nomeExtenso": "Sala de Estudo 2",
-    "link": " "
-},
-{
-    "id": "_5",
-    "slug": "laboratorio_de_eletromagnetismo_e_optica",
-    "nomeExtenso": "Laboratório de Eletromagnetismo e Óptica",
-    "link": " "
-},
-{
-    "id": "_6",
-    "slug": "sala_de_estudo_1",
-    "nomeExtenso": "Sala de Estudo 1",
-    "link": " "
-},
-{
-    "id": "_7",
-    "slug": "laboratorio_de_dinamica_e_termodinamica",
-    "nomeExtenso": "Laboratório de Dinâmica e Termodinâmica",
-    "link": " "
-},
-{
-    "id": "_8",
-    "slug": "centro_academico_de_fisica",
-    "nomeExtenso": "Centro Acadêmico de Física",
-    "link": " "
-},
-{
-    "id": "_9",
-    "slug": "laboratorio_de_instrumentacao",
-    "nomeExtenso": "Laboratório de Instrumentação",
-    "link": " "
+    "places":[
+        {
+            "id": "_1",
+            "slug": "coordenacao_do_curso_superior_de_licenciatura_em_fisica",
+            "nomeExtenso": "Coordenação do Curso Superior de Licenciatura em Física",
+            "link": " "
+        },
+        {
+            "id": "_2",
+            "slug": "sala_de_atendimento_(monitoria)",
+            "nomeExtenso": "Sala de Atendimento (Monitoria)",
+            "link": " "
+        },
+        {
+            "id": "_3",
+            "slug": "sala_de_estudo_3",
+            "nomeExtenso": "Sala de Estudo 3",
+            "link": " "
+        },
+        {
+            "id": "_4",
+            "slug": "sala_de_estudo_2",
+            "nomeExtenso": "Sala de Estudo 2",
+            "link": " "
+        },
+        {
+            "id": "_5",
+            "slug": "laboratorio_de_eletromagnetismo_e_optica",
+            "nomeExtenso": "Laboratório de Eletromagnetismo e Óptica",
+            "link": " "
+        },
+        {
+            "id": "_6",
+            "slug": "sala_de_estudo_1",
+            "nomeExtenso": "Sala de Estudo 1",
+            "link": " "
+        },
+        {
+            "id": "_7",
+            "slug": "laboratorio_de_dinamica_e_termodinamica",
+            "nomeExtenso": "Laboratório de Dinâmica e Termodinâmica",
+            "link": " "
+        },
+        {
+            "id": "_8",
+            "slug": "centro_academico_de_fisica",
+            "nomeExtenso": "Centro Acadêmico de Física",
+            "link": " "
+        },
+        {
+            "id": "_9",
+            "slug": "laboratorio_de_instrumentacao",
+            "nomeExtenso": "Laboratório de Instrumentação",
+            "link": " "
+        }
+    ]  
 }
