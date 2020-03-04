@@ -1,54 +1,54 @@
 {
     "id": "_1",
-    "nomeCode": "coordenacao-do-curso-superior-de-licenciatura-em-fisica",
-    "NomeExtenso": "Coordenação do Curso Superior de Licenciatura em Física",
+    "slug": "coordenacao_do_curso_superior_de_licenciatura_em_fisica",
+    "nomeExtenso": "Coordenação do Curso Superior de Licenciatura em Física",
     "link": " "
 },
 {
     "id": "_2",
-    "nomeCode": "sala-de-atendimento-(monitoria)",
-    "NomeExtenso": "Sala de Atendimento (Monitoria)",
+    "slug": "sala_de_atendimento_(monitoria)",
+    "nomeExtenso": "Sala de Atendimento (Monitoria)",
     "link": " "
 },
 {
     "id": "_3",
-    "nomeCode": "sala-de-estudo-3",
-    "NomeExtenso": "Sala de Estudo 3",
+    "slug": "sala_de_estudo_3",
+    "nomeExtenso": "Sala de Estudo 3",
     "link": " "
 },
 {
     "id": "_4",
-    "nomeCode": "sala-de-estudo-2",
-    "NomeExtenso": "Sala de Estudo 2",
+    "slug": "sala_de_estudo_2",
+    "nomeExtenso": "Sala de Estudo 2",
     "link": " "
 },
 {
     "id": "_5",
-    "nomeCode": "laboratorio-de-eletromagnetismo-e-optica",
-    "NomeExtenso": "Laboratório de Eletromagnetismo e Óptica",
+    "slug": "laboratorio_de_eletromagnetismo_e_optica",
+    "nomeExtenso": "Laboratório de Eletromagnetismo e Óptica",
     "link": " "
 },
 {
     "id": "_6",
-    "nomeCode": "sala-de-estudo-1",
-    "NomeExtenso": "Sala de Estudo 1",
+    "slug": "sala_de_estudo_1",
+    "nomeExtenso": "Sala de Estudo 1",
     "link": " "
 },
 {
     "id": "_7",
-    "nomeCode": "laboratorio-de-dinamica-e-termodinamica",
-    "NomeExtenso": "Laboratório de Dinâmica e Termodinâmica",
+    "slug": "laboratorio_de_dinamica_e_termodinamica",
+    "nomeExtenso": "Laboratório de Dinâmica e Termodinâmica",
     "link": " "
 },
 {
     "id": "_8",
-    "nomeCode": "centro-academico-de-fisica",
-    "NomeExtenso": "Centro Acadêmico de Física",
+    "slug": "centro_academico_de_fisica",
+    "nomeExtenso": "Centro Acadêmico de Física",
     "link": " "
 },
 {
     "id": "_9",
-    "nomeCode": "laboratorio-de-instrumentacao",
-    "NomeExtenso": "Laboratório de Instrumentação",
+    "slug": "laboratorio_de_instrumentacao",
+    "nomeExtenso": "Laboratório de Instrumentação",
     "link": " "
 }
