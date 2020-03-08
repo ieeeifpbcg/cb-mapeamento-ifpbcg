@@ -1,0 +1,34 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" width="500.16mm" height="338.91mm" viewBox="0 0 1417.78 960.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>bloco-administrativo-2</title>
+  <g id="bloco-administrativo2-1andar">
+    <polygon id="bloco-administrativo2-1andar-2" class="cls-1" points="185.1 0.5 125.3 0.5 77 0.5 0.5 77 0.5 122 0.5 185.2 0.5 230.8 0.5 294 0.5 338.9 77 415.4 125.3 415.4 185.1 415.4 1417.18 415.4 1417.18 0.5 185.1 0.5"/>
+    <rect id="_9" data-name=" 9" class="cls-2" x="1161.59" y="139.7" width="255.7" height="275.7"/>
+    <rect id="_8" data-name=" 8" class="cls-2" x="905.89" y="139.7" width="255.7" height="275.7"/>
+    <rect id="_7" data-name=" 7" class="cls-2" x="650.19" y="139.7" width="255.7" height="275.7"/>
+    <rect id="_6" data-name=" 6" class="cls-2" x="239.1" y="139.7" width="238.6" height="275.7"/>
+    <polygon id="_5" data-name=" 5" class="cls-2" points="239.1 415.4 77 415.4 0.5 338.9 0.5 77 77 0.5 239.1 0.5 239.1 415.4"/>
+  </g>
+  <g id="bloco-administrativo2-terreo">
+    <polygon id="bloco-administrativo2-terreo-2" class="cls-1" points="185.1 545.29 125.3 545.29 77 545.29 0.5 621.79 0.5 666.79 0.5 729.99 0.5 775.59 0.5 838.79 0.5 883.69 77 960.19 125.3 960.19 185.1 960.19 1417.18 960.19 1417.18 545.29 185.1 545.29"/>
+    <rect id="_4" data-name=" 4" class="cls-2" x="1161.59" y="684.49" width="255.6" height="275.7"/>
+    <rect id="_3" data-name=" 3" class="cls-2" x="650.19" y="684.49" width="511.39" height="275.7"/>
+    <rect id="_2" data-name=" 2" class="cls-2" x="239.1" y="684.49" width="238.6" height="275.7"/>
+    <polygon id="_1" data-name=" 1" class="cls-2" points="239.1 960.19 77 960.19 0.5 883.69 0.5 684.49 239.1 684.49 239.1 960.19"/>
+  </g>
+</svg>

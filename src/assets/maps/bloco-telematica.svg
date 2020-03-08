@@ -1,0 +1,36 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" width="403.75mm" height="745.38mm" viewBox="0 0 1144.49 2112.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>bloco-telematica</title>
+  <g id="bloco-telematica-1andar">
+    <polygon id="bloco-telematica-1andar-2" class="cls-1" points="735.99 0.5 0.5 736.09 0.5 909.89 233.9 1144.79 407.8 1144.79 1143.29 409.2 1143.29 235.4 909.89 0.5 735.99 0.5"/>
+    <polygon id="_11" data-name=" 11" class="cls-2" points="992.39 83 1143.99 234.6 1143.99 408.5 978.79 573.79 740.19 335.2 992.39 83"/>
+    <polygon id="_10" data-name=" 10" class="cls-2" points="735.99 0.5 538.19 198.4 593.39 253.6 684.99 162 799.19 276.2 992.39 83 909.89 0.5 735.99 0.5"/>
+    <rect id="_9" data-name=" 9" class="cls-2" x="695.85" y="356.2" width="233.2" height="422.5" transform="translate(-228.88 679.99) rotate(-45)"/>
+    <rect id="_8" data-name=" 8" class="cls-2" x="425.17" y="564.93" width="357.1" height="422.5" transform="translate(-437.61 593.53) rotate(-45)"/>
+    <polygon id="_7" data-name=" 7" class="cls-2" points="22.8 932.09 234.6 1143.99 408.5 1144.09 561.39 991.19 262.6 692.39 22.8 932.09"/>
+    <polygon id="_6" data-name=" 6" class="cls-2" points="105.1 631.49 0.5 736.09 0.5 909.89 22.8 932.09 214.3 740.69 105.1 631.49"/>
+  </g>
+  <g id="bloco-telematica-terreo">
+    <polygon id="bloco-telematica-terreo-2" class="cls-2" points="736.39 968.19 0.9 1703.68 0.9 1877.48 234.2 2112.38 408.2 2112.38 1143.69 1376.89 1143.59 1202.99 910.29 968.09 736.39 968.19"/>
+    <polygon id="_5" data-name=" 5" class="cls-2" points="1143.69 1376.89 914.39 1606.18 655.49 1347.39 972.49 1030.39 1143.59 1202.99 1143.69 1376.89"/>
+    <polygon id="_4" data-name=" 4" class="cls-2" points="735.69 968.89 506.39 1198.19 655.49 1347.39 972.49 1030.39 910.29 968.09 735.69 968.89"/>
+    <rect id="_3" data-name=" 3" class="cls-2" x="471.17" y="1300.66" width="357.1" height="576.98" transform="translate(-998.99 864.17) rotate(-45)"/>
+    <polygon id="_2" data-name=" 2" class="cls-2" points="0.9 1703.68 253.4 1451.18 661.39 1859.18 408.9 2111.68 87.6 1790.78 0.9 1877.48 0.9 1703.68"/>
+    <polygon id="_1" data-name=" 1" class="cls-2" points="0.9 1877.48 235 2111.68 408.2 2112.38 87.6 1790.78 0.9 1877.48"/>
+  </g>
+</svg>

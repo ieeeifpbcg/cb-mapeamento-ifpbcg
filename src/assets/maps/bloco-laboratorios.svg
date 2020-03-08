@@ -1,0 +1,95 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" width="265.07mm" height="598.13mm" viewBox="0 0 751.39 1695.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>bloco-laboratorios</title>
+  <g id="bloco-laboratorios-1andar">
+    <rect id="bloco-laboratorios-1andar-2" class="cls-1" x="441.1" y="0.5" width="309.7" height="1694.49"/>
+    <rect id="_16" data-name=" 16" class="cls-2" x="516.5" y="1467.89" width="234.3" height="227.1"/>
+    <rect id="_15" data-name=" 15" class="cls-2" x="516.5" y="1240.79" width="234.3" height="227.1"/>
+    <rect id="_14" data-name=" 14" class="cls-2" x="516.5" y="1013.79" width="234.3" height="227.1"/>
+    <g id="escada">
+      <rect class="cls-1" x="696.89" y="910.69" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="920.99" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="931.29" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="941.59" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="951.89" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="962.19" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="972.49" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="982.79" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="993.09" width="54" height="10.3"/>
+      <rect class="cls-1" x="696.89" y="1003.49" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="910.69" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="920.99" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="931.29" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="941.59" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="951.89" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="962.19" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="972.49" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="982.79" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="993.09" width="54" height="10.3"/>
+      <rect class="cls-1" x="642.89" y="1003.49" width="54" height="10.3"/>
+    </g>
+    <rect id="_13" data-name=" 13" class="cls-2" x="516.5" y="910.69" width="126.3" height="103.1"/>
+    <g id="_12" data-name=" 12">
+      <polygon class="cls-2" points="516.5 681.5 516.5 785.39 582.79 785.39 582.79 837.99 684.6 837.99 684.6 785.39 750.89 785.39 750.89 681.5 516.5 681.5"/>
+      <line class="cls-3" x1="633.69" y1="681.49" x2="633.69" y2="837.99"/>
+    </g>
+    <rect id="_11" data-name=" 11" class="cls-2" x="516.5" y="454.5" width="234.3" height="227"/>
+    <rect id="_10" data-name=" 10" class="cls-2" x="516.5" y="227.5" width="234.3" height="227"/>
+    <rect id="_9" data-name=" 9" class="cls-2" x="516.5" y="0.5" width="234.3" height="227"/>
+  </g>
+  <g id="bloco-laboratorios-terreo">
+    <rect id="bloco-laboratorios-terreo-2" class="cls-1" x="0.5" y="0.5" width="309.7" height="1694.49"/>
+    <rect id="_8" data-name=" 8" class="cls-2" x="75.9" y="1467.89" width="234.3" height="227.1"/>
+    <rect id="_7" data-name=" 7" class="cls-2" x="75.9" y="1240.79" width="234.3" height="227.1"/>
+    <rect id="_6" data-name=" 6" class="cls-2" x="75.9" y="1013.79" width="234.3" height="227.1"/>
+    <g id="escada-2">
+      <rect class="cls-1" x="256.3" y="910.69" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="920.99" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="931.29" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="941.59" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="951.89" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="962.19" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="972.49" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="982.79" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="993.09" width="54" height="10.3"/>
+      <rect class="cls-1" x="256.3" y="1003.49" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="910.69" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="920.99" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="931.29" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="941.59" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="951.89" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="962.19" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="972.49" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="982.79" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="993.09" width="54" height="10.3"/>
+      <rect class="cls-1" x="202.3" y="1003.49" width="54" height="10.3"/>
+    </g>
+    <rect id="_5" data-name=" 5" class="cls-2" x="75.9" y="910.69" width="126.3" height="103.1"/>
+    <g id="_4" data-name=" 4">
+      <polygon class="cls-2" points="75.9 681.5 75.9 785.39 142.1 785.39 142.1 837.99 244 837.99 244 785.39 310.2 785.39 310.2 681.5 75.9 681.5"/>
+      <line class="cls-3" x1="193.1" y1="681.49" x2="193.1" y2="837.99"/>
+    </g>
+    <rect id="_3" data-name=" 3" class="cls-2" x="75.9" y="454.5" width="234.3" height="227"/>
+    <rect id="_2" data-name=" 2" class="cls-2" x="75.9" y="227.5" width="234.3" height="227"/>
+    <rect id="_1" data-name=" 1" class="cls-2" x="75.9" y="0.5" width="234.3" height="227"/>
+  </g>
+</svg>
