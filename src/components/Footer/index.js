@@ -3,9 +3,11 @@ import React from 'react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import { FooterSC } from './styles';
+
 function Footer() {
   return (
-    <footer>
+    <FooterSC>
       <h3>
         Collab Branch © 2020, Projeto feito com {'<3'} baseado pelo{' '}
         <a
@@ -23,7 +25,7 @@ function Footer() {
       >
         <FontAwesomeIcon icon={faGithub} /> IEEE IFPB-CG
       </a>
-    </footer>
+    </FooterSC>
   );
 }
 

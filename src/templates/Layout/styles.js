@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { theme } from '~/styles/theme';
+// import { theme } from '~/styles/theme';
 
 export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
@@ -45,23 +45,6 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
     padding: 0px 50px 70px 20px;
-  }
-
-  footer {
-    font-weight: 400;
-    margin-top: auto;
-    text-align: center;
-    position: fixed;
-    padding: 10px;
-    bottom: 0;
-    width: 100%;
-    background-color: #3fb59b;
-    align-self: auto;
-    z-index: 10;
-
-    a {
-      color: ${theme.primary.active};
-    }
   }
 
   @media only screen and (max-width: 600px) {
