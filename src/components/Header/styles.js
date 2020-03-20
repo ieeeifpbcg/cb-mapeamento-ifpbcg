@@ -17,38 +17,70 @@ export const HeaderSC = styled.header`
     padding: 0 5px 0 5px;
   }
 
-  #searchBox {
-    background-color: ${theme.primary.fill};
-    border: 1px;
-    border-radius: 5px;
-    align-content: center;
-  }
-
-  #search {
-    height: 40px;
-    width: 40px;
-    background-color: transparent;
-    border: 0;
-    align-content: flex-end;
-  }
-
-  #searchInput {
-    display: none;
-    height: 40px;
-    width: 300px;
-    border: 0px;
-    border-radius: 5px;
-    font-size: medium;
-    padding: 10px;
-    align-content: unset;
-  }
-
   .fa-bars {
     font-size: 2em;
     color: ${theme.primary.text};
   }
+`;
 
-  svg path {
-    fill: ${theme.primary.text};
+export const SearchBox = styled.div`
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 53px;
+  transition: 0.4s linear;
+  overflow: hidden;
+
+  input {
+    display: block;
+    appearance: none;
+    width: 100%;
+
+    border: none;
+    outline: none;
+    border-radius: 15px;
+
+    background-color: ${theme.primary.fill};
+
+    padding: 15px;
+    color: ${theme.primary.fill};
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.6s linear;
+
+    &::placeholder {
+      color: ${theme.primary.fill};
+    }
+  }
+
+  svg {
+    position: absolute;
+    right: calc(53px / 2);
+    top: 50%;
+    transform: translate(50%, -50%);
+
+    pointer-events: none;
+
+    path {
+      fill: ${theme.primary.text};
+      transition: 0.6s linear;
+    }
+  }
+
+  &:focus-within {
+    max-width: 500px;
+
+    input {
+      background-color: ${theme.primary.text};
+      padding-right: 50px;
+      cursor: text;
+    }
+
+    svg {
+      cursor: pointer;
+      path {
+        fill: ${theme.primary.fill};
+      }
+    }
   }
 `;

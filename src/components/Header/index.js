@@ -1,22 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import Search from '~/assets/icons/search-icon.svg';
+import SearchIcon from '~/assets/icons/search-icon.svg';
 
-import { HeaderSC } from './styles';
+import { HeaderSC, SearchBox } from './styles';
 
 function Header() {
-  function searchAnimation() {
-    const searchBoxElement = document.getElementById('searchBox');
-    const searchInputElement = document.getElementById('searchInput');
-    // const searchElement = document.getElementsByClassName('fa-search')[0];
-
-    searchBoxElement.style.backgroundColor = '#fff';
-    searchInputElement.style.display = 'unset';
-    // searchElement.style.color = '#3fb59b';
-  }
+  const [text, setText] = useState('');
 
   return (
     <HeaderSC>
@@ -27,17 +19,14 @@ function Header() {
           Mapeamento IFPB-CG
         </h1>
       </div>
-      <div id="searchBox">
+      <SearchBox>
         <input
-          type="text"
-          name="pesquisa"
-          id="searchInput"
-          placeholder="Pesquisar"
+          value={text}
+          onChange={e => setText(e.target.value)}
+          placeholder="Pesquise..."
         />
-        <button type="button" id="search" onClick={searchAnimation}>
-          <Search />
-        </button>
-      </div>
+        <SearchIcon />
+      </SearchBox>
       <div>
         <FontAwesomeIcon icon={faBars} />
       </div>
