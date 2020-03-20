@@ -1,23 +1,25 @@
 import React from 'react';
 
-import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import './styles.css';
+import Search from '~/assets/icons/search-icon.svg';
+
+import { HeaderSC } from './styles';
 
 function Header() {
   function searchAnimation() {
     const searchBoxElement = document.getElementById('searchBox');
     const searchInputElement = document.getElementById('searchInput');
-    const searchElement = document.getElementsByClassName('fa-search')[0];
+    // const searchElement = document.getElementsByClassName('fa-search')[0];
 
     searchBoxElement.style.backgroundColor = '#fff';
     searchInputElement.style.display = 'unset';
-    searchElement.style.color = '#3fb59b';
+    // searchElement.style.color = '#3fb59b';
   }
 
   return (
-    <header>
+    <HeaderSC>
       <div>
         <h1>
           Collab Branch
@@ -33,13 +35,13 @@ function Header() {
           placeholder="Pesquisar"
         />
         <button type="button" id="search" onClick={searchAnimation}>
-          <FontAwesomeIcon icon={faSearch} />
+          <Search />
         </button>
       </div>
       <div>
         <FontAwesomeIcon icon={faBars} />
       </div>
-    </header>
+    </HeaderSC>
   );
 }
 
