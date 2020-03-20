@@ -41,6 +41,8 @@ export default createGlobalStyle`
   }
 
   .cls-2:hover {
-    fill: #faf;
+    fill: ${theme.primary.fill};
+    cursor: pointer;
+    transition: fill 0.3s ease-out;
   }
 `;
