@@ -4,83 +4,56 @@ import { theme } from '~/styles/theme';
 
 export const HeaderSC = styled.header`
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 120px;
   background-color: ${theme.primary.fill};
   z-index: 10;
 
-  header > div {
-    text-align: right;
-    padding: 0 5px 0 5px;
+  .title {
+    margin: 0 auto 0 380px;
+    min-width: 300px;
   }
 
   .fa-bars {
     font-size: 2em;
     color: ${theme.primary.text};
+    margin: 0 380px 0 70px;
   }
 `;
 
 export const SearchBox = styled.div`
-  position: relative;
-  display: block;
-  width: 100%;
-  max-width: 53px;
-  transition: 0.4s linear;
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+
+  height: 64px;
 
   input {
-    display: block;
     appearance: none;
-    width: 100%;
+    width: ${({ width }) => width};
 
+    background-color: ${({ searchBox }) => searchBox};
     border: none;
     outline: none;
-    border-radius: 15px;
-
-    background-color: ${theme.primary.fill};
-
+    border-radius: 15px 0 0 15px;
     padding: 15px;
-    color: ${theme.primary.fill};
-    font-size: 20px;
+    color: ${theme.primary.active};
+    font-size: 24px;
+    line-height: 36px;
+    transition: 0.4s linear;
+  }
+
+  button {
+    background-color: ${({ searchBox }) => searchBox};
+    border: 0;
+    padding: 0 10px 0 10px;
     cursor: pointer;
-    transition: 0.6s linear;
+    border-radius: 0 15px 15px 0;
 
-    &::placeholder {
-      color: ${theme.primary.fill};
-    }
-  }
-
-  svg {
-    position: absolute;
-    right: calc(53px / 2);
-    top: 50%;
-    transform: translate(50%, -50%);
-
-    pointer-events: none;
-
-    path {
-      fill: ${theme.primary.text};
-      transition: 0.6s linear;
-    }
-  }
-
-  &:focus-within {
-    max-width: 500px;
-
-    input {
-      background-color: ${theme.primary.text};
-      padding-right: 50px;
-      cursor: text;
-    }
-
-    svg {
-      cursor: pointer;
-      path {
-        fill: ${theme.primary.fill};
-      }
+    svg path {
+      fill: ${({ icon }) => icon};
     }
   }
 `;
