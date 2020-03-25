@@ -45,4 +45,9 @@ export default createGlobalStyle`
     cursor: pointer;
     transition: fill 0.3s ease-out;
   }
+
+  #Camada_1 {
+    height: 740px;
+    width: 640px;
+  }
 `;

@@ -38,13 +38,7 @@ export const Container = styled.div`
     position: relative;
     text-align: center;
     padding: 0px;
-    margin-top: 70px;
-  }
-
-  .map {
-    width: 100%;
-    height: 100%;
-    padding: 0px 50px 70px 20px;
+    margin-top: 120px;
   }
 
   @media only screen and (max-width: 600px) {
