@@ -11,17 +11,18 @@ import { theme } from '~/styles/theme';
 function Header() {
   const [text, setText] = useState('');
   const [isOpen, setIsOpen] = useState(0);
-  const [icon, setIcon] = useState(theme.primary.text);
-  const [searchBox, setSearchBox] = useState(theme.primary.fill);
+  const [padding, setPadding] = useState(0);
+  const [iconColor, setIconColor] = useState(theme.primary.text);
+  const [buttonColor, setButtonColor] = useState(theme.primary.fill);
 
   function search() {
     if (!isOpen) {
       setIsOpen(400);
-      setIcon(theme.primary.fill);
-      setSearchBox(theme.primary.text);
+      setPadding(15);
+      setIconColor(theme.primary.fill);
+      setButtonColor(theme.primary.text);
       return;
     }
-
     alert(text);
   }
 
@@ -35,7 +36,12 @@ function Header() {
         </h1>
       </div>
 
-      <SearchBox width={`${isOpen}px`} icon={icon} searchBox={searchBox}>
+      <SearchBox
+        width={`${isOpen}px`}
+        padding={`${padding}px`}
+        iconColor={iconColor}
+        buttonColor={buttonColor}
+      >
         <input
           type="text"
           value={text}

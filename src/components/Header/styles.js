@@ -31,14 +31,14 @@ export const SearchBox = styled.div`
   height: 64px;
 
   input {
-    appearance: none;
     width: ${({ width }) => width};
+    padding: ${({ padding }) => padding};
+    background-color: ${theme.primary.text};
 
-    background-color: ${({ searchBox }) => searchBox};
+    appearance: none;
     border: none;
     outline: none;
     border-radius: 15px 0 0 15px;
-    padding: 15px;
     color: ${theme.primary.active};
     font-size: 24px;
     line-height: 36px;
@@ -46,14 +46,14 @@ export const SearchBox = styled.div`
   }
 
   button {
-    background-color: ${({ searchBox }) => searchBox};
+    background-color: ${({ buttonColor }) => buttonColor};
     border: 0;
     padding: 0 10px 0 10px;
     cursor: pointer;
     border-radius: 0 15px 15px 0;
 
     svg path {
-      fill: ${({ icon }) => icon};
+      fill: ${({ iconColor }) => iconColor};
     }
   }
 `;
