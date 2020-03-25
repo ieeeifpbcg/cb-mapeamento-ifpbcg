@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-// import { theme } from '~/styles/theme';
+import { theme } from '~/styles/theme';
 
 export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
@@ -28,10 +28,22 @@ export const Container = styled.div`
     color: #888;
   }
 
-  h3 {
-    font-size: small;
-    margin: 5px;
-    color: #fff;
+  #float {
+    float: left;
+    width: 300px;
+    height: 150px;
+
+    h3 {
+      font-size: 20px;
+      margin: 5px;
+      color: ${theme.primary.active};
+    }
+
+    h4 {
+      font-size: 16px;
+      margin: 5px;
+      color: ${theme.primary.active};
+    }
   }
 
   main {
