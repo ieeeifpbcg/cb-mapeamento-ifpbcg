@@ -28,10 +28,14 @@ export const Container = styled.div`
     color: #888;
   }
 
-  #float {
-    float: left;
-    width: 300px;
-    height: 150px;
+  #float-window {
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
 
     h3 {
       font-size: 20px;

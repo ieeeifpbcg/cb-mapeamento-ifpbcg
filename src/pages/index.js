@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 import Layout from '~/templates/Layout';
 
+import { theme } from '../styles/theme';
+
 import externo from '~/assets/data/externo.json';
 import MainMap from '~/assets/maps/ifpb-cg-externo.svg';
 
@@ -12,7 +14,7 @@ const IndexPage = () => {
   useEffect(() => {
     for (let i = 1; i <= 42; i += 1) {
       const place = document.getElementById(`_${i}`);
-      place.onmouseover = event => {
+      place.onmouseenter = event => {
         const [finalPlace] = externo.places.filter(
           placeCompare => placeCompare.id === place.id
         );
@@ -20,14 +22,21 @@ const IndexPage = () => {
         setLink(finalPlace.link);
 
         const x = event.pageX;
-        const y = event.pageY + 250;
-        const FloatingWindow = document.getElementById('float');
-        FloatingWindow.style.float = 'left';
-        FloatingWindow.style.top = y;
-        FloatingWindow.style.left = x;
+        const y = event.pageY - 300;
+        const FloatingWindow = document.getElementById('float-window');
+        FloatingWindow.style.display = 'flex';
         FloatingWindow.style.width = '300px';
-        FloatingWindow.style.height = '150px';
-        FloatingWindow.style.backgroundColor = 'tranparent';
+        FloatingWindow.style.height = '100px';
+        FloatingWindow.style.top = `${y}px`;
+        FloatingWindow.style.left = `${x}px`;
+        FloatingWindow.style.backgroundColor = theme.primary.fill;
+      };
+
+      place.onmouseout = () => {
+        const FloatingWindow = document.getElementById('float-window');
+        FloatingWindow.style.display = 'none';
+        FloatingWindow.style.height = '0px';
+        FloatingWindow.style.width = '0px';
       };
     }
   }, []);
@@ -35,7 +44,7 @@ const IndexPage = () => {
   return (
     <Layout title="Mapa Principal">
       <h2>Seção do mapa principal</h2>
-      <div id="float">
+      <div id="float-window">
         <h3>Nome: {placeName}</h3>
         <h4>Link: {link}</h4>
       </div>
