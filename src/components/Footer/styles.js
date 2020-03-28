@@ -3,11 +3,7 @@ import styled from 'styled-components';
 import { theme } from '~/styles/theme';
 
 export const FooterSC = styled.footer`
-
   color: ${theme.primary.text}
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
   margin-top: auto;
   text-align: center;
   position: fixed;
@@ -19,6 +15,12 @@ export const FooterSC = styled.footer`
   align-self: auto;
   z-index: 10;
 
+  h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+  }
 
   h3 > a {
     color: ${theme.primary.active};
