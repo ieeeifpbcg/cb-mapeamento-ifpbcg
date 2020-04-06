@@ -15,7 +15,9 @@ function Header() {
   const [iconColor, setIconColor] = useState(theme.primary.text);
   const [buttonColor, setButtonColor] = useState(theme.primary.fill);
 
-  function search() {
+  function handleSubmit(event) {
+    event.preventDefault();
+
     if (!isOpen) {
       setIsOpen(400);
       setPadding(15);
@@ -23,20 +25,27 @@ function Header() {
       setButtonColor(theme.primary.text);
       return;
     }
+
+    if (isOpen && !text) {
+      setIsOpen(0);
+      setPadding(0);
+      setIconColor(theme.primary.text);
+      setButtonColor(theme.primary.fill);
+      return;
+    }
     alert(text);
   }
 
   return (
     <HeaderSC>
-      <div className="title">
-        <h1>
-          Collab Branch
-          <br />
-          Mapeamento IFPB-CG
-        </h1>
-      </div>
+      <h1>
+        Collab Branch
+        <br />
+        Mapeamento IFPB-CG
+      </h1>
 
       <SearchBox
+        onSubmit={handleSubmit}
         width={`${isOpen}px`}
         padding={`${padding}px`}
         iconColor={iconColor}
@@ -46,19 +55,14 @@ function Header() {
           type="text"
           value={text}
           onChange={e => setText(e.target.value)}
-          onKeyDown={e => {
-            if (e.which === 13) search();
-          }}
           placeholder="Pesquise..."
         />
-        <button type="button" onClick={search}>
+        <button type="submit">
           <SearchIcon />
         </button>
       </SearchBox>
 
-      <div>
-        <FontAwesomeIcon icon={faBars} />
-      </div>
+      <FontAwesomeIcon icon={faBars} />
     </HeaderSC>
   );
 }

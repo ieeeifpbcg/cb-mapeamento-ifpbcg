@@ -16,7 +16,6 @@ export const Container = styled.div`
 
   h1 {
     font-size: x-large;
-    margin: 5px;
     color: #fff;
     text-align: left;
     padding-left: 30px;
@@ -35,7 +34,6 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 0.6;
 
     h3 {
       font-size: 20px;

@@ -12,7 +12,7 @@ export const HeaderSC = styled.header`
   background-color: ${theme.primary.fill};
   z-index: 10;
 
-  .title {
+  h1 {
     margin: 0 auto 0 380px;
     min-width: 300px;
   }
@@ -24,7 +24,7 @@ export const HeaderSC = styled.header`
   }
 `;
 
-export const SearchBox = styled.div`
+export const SearchBox = styled.form`
   display: flex;
   flex-direction: row;
 
@@ -51,6 +51,7 @@ export const SearchBox = styled.div`
     padding: 0 10px 0 10px;
     cursor: pointer;
     border-radius: 0 15px 15px 0;
+    transition: 0.4s linear;
 
     svg path {
       fill: ${({ iconColor }) => iconColor};
