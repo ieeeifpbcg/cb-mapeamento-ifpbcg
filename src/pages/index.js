@@ -12,14 +12,12 @@ const IndexPage = () => {
   const [link, setLink] = useState('');
 
   useEffect(() => {
-    for (let i = 1; i <= 42; i += 1) {
-      const place = document.getElementById(`_${i}`);
-      place.onmouseenter = event => {
-        const [finalPlace] = externo.places.filter(
-          placeCompare => placeCompare.id === place.id
-        );
-        setPlaceName(finalPlace.nomeExtenso);
-        setLink(finalPlace.link);
+    externo.forEach(placeInJSON => {
+      const placeInDOM = document.getElementById(placeInJSON.id);
+
+      placeInDOM.onmouseenter = event => {
+        setPlaceName(placeInJSON.nomeExtenso);
+        setLink(placeInJSON.link);
 
         const x = event.pageX;
         const y = event.pageY - 300;
@@ -32,21 +30,21 @@ const IndexPage = () => {
         FloatingWindow.style.backgroundColor = theme.primary.fill;
       };
 
-      place.onmouseout = () => {
+      placeInDOM.onmouseout = () => {
         const FloatingWindow = document.getElementById('float-window');
         FloatingWindow.style.display = 'none';
         FloatingWindow.style.height = '0px';
         FloatingWindow.style.width = '0px';
       };
-    }
+    });
   }, []);
 
   return (
     <Layout title="Mapa Principal">
       <h2>Seção do mapa principal</h2>
       <div id="float-window">
-        <h3>Nome: {placeName}</h3>
-        <h4>Link: {link}</h4>
+        <h3>Nome: {placeName || 'Não Catalogado'}</h3>
+        <h4>Link: {link || 'Não tem horário'}</h4>
       </div>
       <MainMap />
     </Layout>

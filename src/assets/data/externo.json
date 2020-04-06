@@ -1,256 +1,254 @@
-{
-    "places":[
-        {
-            "id": "_1",
-            "slug": "auditorio",
-            "nomeExtenso": "Auditório",
-            "link": " "
-        },
-        {
-            "id": "_2",
-            "slug": "unidade_academica_de_fisica",
-            "nomeExtenso": "Unidade Acadêmica de Física",
-            "link": " "
-        },
-        {
-            "id": "_3",
-            "slug": "area_de_vivencia",
-            "nomeExtenso": "Área de Vivência",
-            "link": " "
-        },
-        {
-            "id": "_4",
-            "slug": "antiga_recepcao",
-            "nomeExtenso": "Antiga Recepção",
-            "link": " "
-        },
-        {
-            "id": "_5",
-            "slug": "refeitorio",
-            "nomeExtenso": "Refeitório",
-            "link": " "
-        },
-        {
-            "id": "_6",
-            "slug": "bloco_de_mineracao",
-            "nomeExtenso": "Bloco de Mineração",
-            "link": " "
-        },
-        {
-            "id": "_7",
-            "slug": "bloco_de_telematica",
-            "nomeExtenso": "Bloco de Telemática",
-            "link": " "
-        },
-        {
-            "id": "_8",
-            "slug": "bloco_de_auxiliares_de_limpeza",
-            "nomeExtenso": "Bloco de Auxiliares de Limpeza",
-            "link": " "
-        },
-        {
-            "id": "_9",
-            "slug": "bloco_de_laboratorios",
-            "nomeExtenso": "Bloco de Laboratórios",
-            "link": " "
-        },
-        {
-            "id": "_10",
-            "slug": "bloco_administrativo_ii",
-            "nomeExtenso": "Bloco Administrativo II",
-            "link": " "
-        },
-        {
-            "id": "_11",
-            "slug": "bloco_administrativo_i",
-            "nomeExtenso": "Bloco Administrativo I",
-            "link": " "
-        },
-        {
-            "id": "_12",
-            "slug": "ginasio_poliesportivo",
-            "nomeExtenso": "Ginásio Poliesportivo",
-            "link": "https://horarios.ifpb.edu.br/campina/sala.php?id=47"
-        },
-        {
-            "id": "_13",
-            "slug": "central_de_aulas",
-            "nomeExtenso": "Central de Aulas",
-            "link": " "
-        },
-        {
-            "id": "_14",
-            "slug": "biblioteca",
-            "nomeExtenso": "Biblioteca",
-            "link": " "
-        },
-        {
-            "id": "_15",
-            "slug": "bloco_dos_professores",
-            "nomeExtenso": "Bloco Dos Professores",
-            "link": " "
-        },
-        {
-            "id": "_16",
-            "slug": "poetize_(laboratorio_de_criacao_artistica_e_educacao)",
-            "nomeExtenso": "Poetize (Laboratório de Criação Artística e Educação)",
-            "link": " "
-        },
-        {
-            "id": "_17",
-            "slug": "sala_de_aula_7",
-            "nomeExtenso": "Sala de Aula 7",
-            "link": " "
-        },
-        {
-            "id": "_18",
-            "slug": "laboratorio_de_programacao_5",
-            "nomeExtenso": "Laboratório de Programação 5",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=9"
-        },
-        {
-            "id": "_19",
-            "slug": "laboratorio_de_programacao_3",
-            "nomeExtenso": "Laboratório de Programação 3",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=24"
-        },
-        {
-            "id": "_20",
-            "slug": " ",
-            "nomeExtenso": " ",
-            "link": " "
-        },
-        {
-            "id": "_21",
-            "slug": "laboratorio_de_programacao_2",
-            "nomeExtenso": "Laboratório de Programação 2",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=4"
-        },
-        {
-            "id": "_22",
-            "slug": "laboratorio_de_programacao_4",
-            "nomeExtenso": "Laboratório de Programação 4",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=3"
-        },
-        {
-            "id": "_23",
-            "slug": "laboratorio_de_programacao_1",
-            "nomeExtenso": "Laboratório de Programação 1",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=23"
-        },
-        {
-            "id": "_24",
-            "slug": "laboratorio_de_engenharia_de_software",
-            "nomeExtenso": "Laboratório de Engenharia de Software",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=11"
-        },
-        {
-            "id": "_25",
-            "slug": "laboratorio_de_biologia",
-            "nomeExtenso": "Laboratório de Biologia",
-            "link": " "
-        },
-        {
-            "id": "_26",
-            "slug": "banheiros",
-            "nomeExtenso": "Banheiros",
-            "link": " "
-        },
-        {
-            "id": "_27",
-            "slug": "atendimento_psicopedagogo",
-            "nomeExtenso": "Atendimento Psicopedagogo",
-            "link": " "
-        },
-        {
-            "id": "_28",
-            "slug": "coordenacao_de_tecnologia_de_informacao",
-            "nomeExtenso": "Coordenação de Tecnologia de Informação",
-            "link": " "
-        },
-        {
-            "id": "_29",
-            "slug": "processos_organicos",
-            "nomeExtenso": "Processos Orgânicos",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=29"
-        },
-        {
-            "id": "_30",
-            "slug": " ",
-            "nomeExtenso": " ",
-            "link": " "
-        },
-        {
-            "id": "_31",
-            "slug": "banheiros",
-            "nomeExtenso": "Banheiros",
-            "link": " "
-        },
-        {
-            "id": "_32",
-            "slug": "laboratorio_de_informatica_1",
-            "nomeExtenso": "Laboratório de Informática 1",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=1"
-        },
-        {
-            "id": "_33",
-            "slug": "laboratorio_de_eletronica_digital",
-            "nomeExtenso": "Laboratório de Eletrônica Digital",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=13"
-        },
-        {
-            "id": "_34",
-            "slug": "laboratorio_de_redes",
-            "nomeExtenso": "Laboratório de Redes",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=7"
-        },
-        {
-            "id": "_35",
-            "slug": "laboratorio_de_eletronica_analogica",
-            "nomeExtenso": "Laboratório de Eletrônica Analógica",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=6"
-        },
-        {
-            "id": "_36",
-            "slug": " ",
-            "nomeExtenso": " ",
-            "link": " "
-        },
-        {
-            "id": "_37",
-            "slug": "laboratorio_de_matematica",
-            "nomeExtenso": "Laboratório de Matemática",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=34"
-        },
-        {
-            "id": "_38",
-            "slug": "cst_-_edificar",
-            "nomeExtenso": "CST - Edificar",
-            "link": " "
-        },
-        {
-            "id": "_39",
-            "slug": " ",
-            "nomeExtenso": " ",
-            "link": " "
-        },
-        {
-            "id": "_40",
-            "slug": " ",
-            "nomeExtenso": " ",
-            "link": " "
-        },
-        {
-            "id": "_41",
-            "slug": "laboratorio_de_geologia",
-            "nomeExtenso": "Laboratório de Geologia",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=21"
-        },
-        {
-            "id": "_42",
-            "slug": "laboratorio_de_mineralogia",
-            "nomeExtenso": "Laboratório de Mineralogia",
-            "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=27"
-        }
-    ]
-}
+[
+  {
+    "id": "_1",
+    "slug": "auditorio",
+    "nomeExtenso": "Auditório",
+    "link": ""
+  },
+  {
+    "id": "_2",
+    "slug": "unidade_academica_de_fisica",
+    "nomeExtenso": "Unidade Acadêmica de Física",
+    "link": ""
+  },
+  {
+    "id": "_3",
+    "slug": "area_de_vivencia",
+    "nomeExtenso": "Área de Vivência",
+    "link": ""
+  },
+  {
+    "id": "_4",
+    "slug": "antiga_recepcao",
+    "nomeExtenso": "Antiga Recepção",
+    "link": ""
+  },
+  {
+    "id": "_5",
+    "slug": "refeitorio",
+    "nomeExtenso": "Refeitório",
+    "link": ""
+  },
+  {
+    "id": "_6",
+    "slug": "bloco_de_mineracao",
+    "nomeExtenso": "Bloco de Mineração",
+    "link": ""
+  },
+  {
+    "id": "_7",
+    "slug": "bloco_de_telematica",
+    "nomeExtenso": "Bloco de Telemática",
+    "link": ""
+  },
+  {
+    "id": "_8",
+    "slug": "bloco_de_auxiliares_de_limpeza",
+    "nomeExtenso": "Bloco de Auxiliares de Limpeza",
+    "link": ""
+  },
+  {
+    "id": "_9",
+    "slug": "bloco_de_laboratorios",
+    "nomeExtenso": "Bloco de Laboratórios",
+    "link": ""
+  },
+  {
+    "id": "_10",
+    "slug": "bloco_administrativo_ii",
+    "nomeExtenso": "Bloco Administrativo II",
+    "link": ""
+  },
+  {
+    "id": "_11",
+    "slug": "bloco_administrativo_i",
+    "nomeExtenso": "Bloco Administrativo I",
+    "link": ""
+  },
+  {
+    "id": "_12",
+    "slug": "ginasio_poliesportivo",
+    "nomeExtenso": "Ginásio Poliesportivo",
+    "link": "https://horarios.ifpb.edu.br/campina/sala.php?id=47"
+  },
+  {
+    "id": "_13",
+    "slug": "central_de_aulas",
+    "nomeExtenso": "Central de Aulas",
+    "link": ""
+  },
+  {
+    "id": "_14",
+    "slug": "biblioteca",
+    "nomeExtenso": "Biblioteca",
+    "link": ""
+  },
+  {
+    "id": "_15",
+    "slug": "bloco_dos_professores",
+    "nomeExtenso": "Bloco Dos Professores",
+    "link": ""
+  },
+  {
+    "id": "_16",
+    "slug": "poetize_(laboratorio_de_criacao_artistica_e_educacao)",
+    "nomeExtenso": "Poetize (Laboratório de Criação Artística e Educação)",
+    "link": ""
+  },
+  {
+    "id": "_17",
+    "slug": "sala_de_aula_7",
+    "nomeExtenso": "Sala de Aula 7",
+    "link": ""
+  },
+  {
+    "id": "_18",
+    "slug": "laboratorio_de_programacao_5",
+    "nomeExtenso": "Laboratório de Programação 5",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=9"
+  },
+  {
+    "id": "_19",
+    "slug": "laboratorio_de_programacao_3",
+    "nomeExtenso": "Laboratório de Programação 3",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=24"
+  },
+  {
+    "id": "_20",
+    "slug": "",
+    "nomeExtenso": "",
+    "link": ""
+  },
+  {
+    "id": "_21",
+    "slug": "laboratorio_de_programacao_2",
+    "nomeExtenso": "Laboratório de Programação 2",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=4"
+  },
+  {
+    "id": "_22",
+    "slug": "laboratorio_de_programacao_4",
+    "nomeExtenso": "Laboratório de Programação 4",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=3"
+  },
+  {
+    "id": "_23",
+    "slug": "laboratorio_de_programacao_1",
+    "nomeExtenso": "Laboratório de Programação 1",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=23"
+  },
+  {
+    "id": "_24",
+    "slug": "laboratorio_de_engenharia_de_software",
+    "nomeExtenso": "Laboratório de Engenharia de Software",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=11"
+  },
+  {
+    "id": "_25",
+    "slug": "laboratorio_de_biologia",
+    "nomeExtenso": "Laboratório de Biologia",
+    "link": ""
+  },
+  {
+    "id": "_26",
+    "slug": "banheiros",
+    "nomeExtenso": "Banheiros",
+    "link": ""
+  },
+  {
+    "id": "_27",
+    "slug": "atendimento_psicopedagogo",
+    "nomeExtenso": "Atendimento Psicopedagogo",
+    "link": ""
+  },
+  {
+    "id": "_28",
+    "slug": "coordenacao_de_tecnologia_de_informacao",
+    "nomeExtenso": "Coordenação de Tecnologia de Informação",
+    "link": ""
+  },
+  {
+    "id": "_29",
+    "slug": "processos_organicos",
+    "nomeExtenso": "Processos Orgânicos",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=29"
+  },
+  {
+    "id": "_30",
+    "slug": "",
+    "nomeExtenso": "",
+    "link": ""
+  },
+  {
+    "id": "_31",
+    "slug": "banheiros",
+    "nomeExtenso": "Banheiros",
+    "link": ""
+  },
+  {
+    "id": "_32",
+    "slug": "laboratorio_de_informatica_1",
+    "nomeExtenso": "Laboratório de Informática 1",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=1"
+  },
+  {
+    "id": "_33",
+    "slug": "laboratorio_de_eletronica_digital",
+    "nomeExtenso": "Laboratório de Eletrônica Digital",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=13"
+  },
+  {
+    "id": "_34",
+    "slug": "laboratorio_de_redes",
+    "nomeExtenso": "Laboratório de Redes",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=7"
+  },
+  {
+    "id": "_35",
+    "slug": "laboratorio_de_eletronica_analogica",
+    "nomeExtenso": "Laboratório de Eletrônica Analógica",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=6"
+  },
+  {
+    "id": "_36",
+    "slug": "",
+    "nomeExtenso": "",
+    "link": ""
+  },
+  {
+    "id": "_37",
+    "slug": "laboratorio_de_matematica",
+    "nomeExtenso": "Laboratório de Matemática",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=34"
+  },
+  {
+    "id": "_38",
+    "slug": "cst_-_edificar",
+    "nomeExtenso": "CST - Edificar",
+    "link": ""
+  },
+  {
+    "id": "_39",
+    "slug": "",
+    "nomeExtenso": "",
+    "link": ""
+  },
+  {
+    "id": "_40",
+    "slug": "",
+    "nomeExtenso": "",
+    "link": ""
+  },
+  {
+    "id": "_41",
+    "slug": "laboratorio_de_geologia",
+    "nomeExtenso": "Laboratório de Geologia",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=21"
+  },
+  {
+    "id": "_42",
+    "slug": "laboratorio_de_mineralogia",
+    "nomeExtenso": "Laboratório de Mineralogia",
+    "link": "https://horarios.ifpb.edu.br/campina/laboratorio.php?id=27"
+  }
+]
