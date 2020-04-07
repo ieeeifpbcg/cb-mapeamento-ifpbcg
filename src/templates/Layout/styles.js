@@ -3,22 +3,14 @@ import styled from 'styled-components';
 import { theme } from '~/styles/theme';
 
 export const Container = styled.div`
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
 
-  body {
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-  }
-
   h1 {
     font-size: x-large;
     color: #fff;
-    text-align: left;
-    padding-left: 30px;
   }
 
   h2 {
