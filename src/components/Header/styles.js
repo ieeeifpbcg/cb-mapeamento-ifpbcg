@@ -3,24 +3,29 @@ import styled from 'styled-components';
 import { theme } from '~/styles/theme';
 
 export const HeaderSC = styled.header`
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   position: fixed;
   width: 100%;
   height: 120px;
   background-color: ${theme.primary.fill};
-  z-index: 10;
+`;
+
+export const HeaderContent = styled.div`
+  max-width: 980px;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 
   h1 {
-    margin: 0 auto 0 380px;
-    min-width: 300px;
+    margin-right: auto;
   }
 
   .fa-bars {
     font-size: 2em;
     color: ${theme.primary.text};
-    margin: 0 380px 0 70px;
+    margin-left: 40px;
   }
 `;
 

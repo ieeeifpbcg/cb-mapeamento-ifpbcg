@@ -46,23 +46,4 @@ export const Container = styled.div`
     padding: 0px;
     margin-top: 120px;
   }
-
-  @media only screen and (max-width: 600px) {
-    footer {
-      background-color: transparent;
-    }
-
-    h1 {
-      font-size: medium;
-    }
-
-    h2 {
-      font-size: medium;
-    }
-
-    h3 {
-      color: #888;
-      font-size: x-small;
-    }
-  }
 `;

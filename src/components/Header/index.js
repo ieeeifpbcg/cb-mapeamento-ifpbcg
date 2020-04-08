@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import SearchIcon from '~/assets/icons/search-icon.svg';
 
-import { HeaderSC, SearchBox } from './styles';
+import { HeaderSC, HeaderContent, SearchBox } from './styles';
 import { theme } from '~/styles/theme';
 
 function Header() {
@@ -38,31 +38,33 @@ function Header() {
 
   return (
     <HeaderSC>
-      <h1>
-        Collab Branch
-        <br />
-        Mapeamento IFPB-CG
-      </h1>
+      <HeaderContent>
+        <h1>
+          Collab Branch
+          <br />
+          Mapeamento IFPB-CG
+        </h1>
 
-      <SearchBox
-        onSubmit={handleSubmit}
-        width={`${isOpen}px`}
-        padding={`${padding}px`}
-        iconColor={iconColor}
-        buttonColor={buttonColor}
-      >
-        <input
-          type="text"
-          value={text}
-          onChange={e => setText(e.target.value)}
-          placeholder="Pesquise..."
-        />
-        <button type="submit">
-          <SearchIcon />
-        </button>
-      </SearchBox>
+        <SearchBox
+          onSubmit={handleSubmit}
+          width={`${isOpen}px`}
+          padding={`${padding}px`}
+          iconColor={iconColor}
+          buttonColor={buttonColor}
+        >
+          <input
+            type="text"
+            value={text}
+            onChange={e => setText(e.target.value)}
+            placeholder="Pesquise..."
+          />
+          <button type="submit">
+            <SearchIcon />
+          </button>
+        </SearchBox>
 
-      <FontAwesomeIcon icon={faBars} />
+        <FontAwesomeIcon icon={faBars} />
+      </HeaderContent>
     </HeaderSC>
   );
 }
