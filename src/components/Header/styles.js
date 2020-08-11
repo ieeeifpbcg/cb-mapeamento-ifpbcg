@@ -7,6 +7,7 @@ export const HeaderSC = styled.header`
   width: 100%;
   height: 120px;
   background-color: ${theme.primary.fill};
+  z-index: 2;
 `;
 
 export const HeaderContent = styled.div`

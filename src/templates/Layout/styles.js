@@ -45,5 +45,6 @@ export const Container = styled.div`
     text-align: center;
     padding: 0px;
     margin-top: 120px;
+    margin-bottom: 100px;
   }
 `;

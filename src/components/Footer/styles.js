@@ -3,14 +3,13 @@ import styled from 'styled-components';
 import { theme } from '~/styles/theme';
 
 export const FooterSC = styled.footer`
-  color: ${theme.primary.text}
-  margin-top: auto;
+  color: ${theme.primary.text};
   text-align: center;
   position: fixed;
   padding: 10px;
   bottom: 0;
   width: 100%;
-  heigh: 100px;
+  height: 100px;
   background-color: ${theme.primary.fill};
   align-self: auto;
   z-index: 10;
