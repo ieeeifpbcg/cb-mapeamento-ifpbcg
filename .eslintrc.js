@@ -46,10 +46,7 @@ module.exports = {
         groups: [
           '/^(react|styled-components)/',
           'module',
-          '/^~/atoms/',
-          '/^~/molecules/',
-          '/^~/organismis/',
-          '/^~/templates/',
+          '/^~/components/',
           '/^~/context/',
           ['parent', 'sibling', 'index'],
           '/^~/(assets|res)/',

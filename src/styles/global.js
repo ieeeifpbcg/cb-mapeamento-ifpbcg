@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import { theme } from './theme';
 
 export default createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
   * {
     margin: 0;
     padding: 0;
@@ -15,7 +16,8 @@ export default createGlobalStyle`
   }
 
   html, body {
-    font: 16px sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 
     background-color: ${theme.primary.bg};
     color: ${theme.primary.text};
@@ -37,5 +39,16 @@ export default createGlobalStyle`
 
   li {
     list-style-type: none;
+  }
+
+  .cls-2:hover {
+    fill: ${theme.primary.fill};
+    cursor: pointer;
+    transition: fill 0.3s ease-out;
+  }
+
+  #Camada_1 {
+    height: 740px;
+    width: 640px;
   }
 `;

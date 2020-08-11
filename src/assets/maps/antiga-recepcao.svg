@@ -1,0 +1,23 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" width="460.27mm" height="460.8mm" viewBox="0 0 1304.7 1306.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <polygon id="antiga-recepcao" class="cls-1" points="381.6 1305.01 0.5 923.79 0.5 383.31 381.6 1.21 922.1 1.21 1304.2 383.31 1304.2 923.79 922.1 1305.01 381.6 1305.01"/>
+  <polygon id="_4" data-name=" 4" class="cls-2" points="1304.2 923.79 922.1 1305.01 922.1 653.11 1304.2 653.11 1304.2 923.79"/>
+  <polygon id="_3" data-name=" 3" class="cls-2" points="1304.2 382.39 922.1 1.21 922.1 653.11 1304.2 653.11 1304.2 382.39"/>
+  <polygon id="_2" data-name=" 2" class="cls-2" points="0.5 923.79 382.6 1305.01 382.6 653.11 0.5 653.11 0.5 923.79"/>
+  <polygon id="_1" data-name=" 1" class="cls-2" points="0.5 382.39 382.6 1.21 382.6 653.11 0.5 653.11 0.5 382.39"/>
+</svg>

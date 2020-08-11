@@ -1,0 +1,95 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" width="581.33mm" height="278.76mm" viewBox="0 0 1647.87 790.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="bloco-administrativo1-1andar">
+    <rect id="bloco-administrativo1-1andar-2" class="cls-1" x="0.5" y="0.5" width="1646.87" height="346.39"/>
+    <rect id="_17" data-name=" 17" class="cls-2" x="1450.27" y="0.5" width="197.1" height="264.7"/>
+    <rect id="_16" data-name=" 16" class="cls-2" x="1253.18" y="0.5" width="197.1" height="264.7"/>
+    <rect id="_15" data-name=" 15" class="cls-2" x="1056.08" y="0.5" width="197.1" height="264.7"/>
+    <polygon id="_14" data-name=" 14" class="cls-2" points="971.58 0.5 971.58 88.7 851.88 88.7 851.88 176.9 851.88 265.19 971.58 265.19 1056.08 265.19 1056.08 0.5 971.58 0.5"/>
+    <g id="escada">
+      <rect class="cls-1" x="851.88" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="863.78" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="875.78" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="887.78" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="899.68" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="911.68" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="923.68" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="935.58" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="947.58" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="959.68" y="0.5" width="12" height="44.1"/>
+      <rect class="cls-1" x="851.88" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="863.78" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="875.78" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="887.78" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="899.68" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="911.68" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="923.68" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="935.58" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="947.58" y="44.6" width="12" height="44.1"/>
+      <rect class="cls-1" x="959.68" y="44.6" width="12" height="44.1"/>
+    </g>
+    <g id="_13" data-name=" 13">
+      <polygon class="cls-2" points="755.39 94 755.39 43.5 755.39 43.5 755.39 0.5 676.19 0.5 676.19 43.5 676.19 222.2 676.19 265.19 755.39 265.19 755.39 222.2 755.39 222.2 755.39 171.7 795.59 171.7 795.59 94 755.39 94"/>
+      <line class="cls-3" x1="676.19" y1="132.8" x2="795.59" y2="132.8"/>
+    </g>
+    <rect id="_12" data-name=" 12" class="cls-2" x="450.99" y="0.5" width="225.3" height="264.7"/>
+    <rect id="_11" data-name=" 11" class="cls-2" x="225.7" y="0.5" width="225.3" height="189.5"/>
+    <rect id="_10" data-name=" 10" class="cls-2" x="0.5" y="265.2" width="112.6" height="81.7"/>
+    <rect id="_9" data-name=" 9" class="cls-2" x="0.5" y="0.5" width="225.3" height="264.7"/>
+  </g>
+  <g id="bloco-administrativo1-terreo">
+    <rect class="cls-1" x="0.5" y="443.29" width="1646.87" height="346.39"/>
+    <rect id="_8" data-name=" 8" class="cls-2" x="1422.07" y="443.29" width="225.3" height="264.7"/>
+    <rect id="_7" data-name=" 7" class="cls-2" x="1196.88" y="443.29" width="225.3" height="264.7"/>
+    <rect id="_6" data-name=" 6" class="cls-2" x="971.58" y="443.29" width="225.3" height="264.7"/>
+    <g id="escada-2">
+      <rect class="cls-1" x="851.88" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="863.78" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="875.78" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="887.78" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="899.68" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="911.68" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="923.68" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="935.58" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="947.58" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="959.68" y="443.29" width="12" height="44.1"/>
+      <rect class="cls-1" x="851.88" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="863.78" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="875.78" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="887.78" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="899.68" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="911.68" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="923.68" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="935.58" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="947.58" y="487.39" width="12" height="44.1"/>
+      <rect class="cls-1" x="959.68" y="487.39" width="12" height="44.1"/>
+    </g>
+    <polygon id="_5" data-name=" 5" class="cls-2" points="851.88 531.49 851.88 619.69 851.88 707.99 971.58 707.99 971.58 619.69 971.58 531.49 851.88 531.49"/>
+    <g id="_4" data-name=" 4">
+      <polygon id="_Caminho_" data-name=" Caminho " class="cls-2" points="755.39 536.79 755.39 486.29 755.39 486.29 755.39 443.29 676.19 443.29 676.19 486.29 676.19 664.99 676.19 707.99 755.39 707.99 755.39 664.99 755.39 664.99 755.39 614.49 795.59 614.49 795.59 536.79 755.39 536.79"/>
+      <line class="cls-3" x1="676.19" y1="575.59" x2="795.59" y2="575.59"/>
+    </g>
+    <rect id="_3" data-name=" 3" class="cls-2" x="415.49" y="443.29" width="260.7" height="264.7"/>
+    <rect id="_2" data-name=" 2" class="cls-2" x="154.8" y="443.29" width="260.7" height="264.7"/>
+    <rect id="_1" data-name=" 1" class="cls-2" x="0.5" y="443.29" width="154.3" height="264.7"/>
+  </g>
+</svg>

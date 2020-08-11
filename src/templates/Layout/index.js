@@ -2,7 +2,9 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
-import SEO from '~/atoms/Seo';
+import Footer from '~/components/Footer/index';
+import Header from '~/components/Header/index';
+import SEO from '~/components/Seo';
 
 import { Container } from './styles';
 import GlobalStyle from '~/styles/global';
@@ -12,11 +14,9 @@ function Layout({ children, title }) {
     <Container>
       <GlobalStyle />
       <SEO title={title} />
+      <Header />
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with{' '}
-        <a href="https://github.com/ieeeifpbcg">IEEE IFPB-CG</a>
-      </footer>
+      <Footer />
     </Container>
   );
 }
